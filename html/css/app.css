@@ -1908,7 +1908,7 @@ body > .header .logo .icon {
 /* ADD THIS CLASS TO THE <HTML> TAG */
 .lockscreen {
   background-color: #002e43;
-  background: url(../img/client_background.png) repeat center center fixed;
+  background: url(../img/loginback.jpg) repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1992,23 +1992,23 @@ body > .header .logo .icon {
 }
 /* Extra to give the user an option to navigate the website [optional]*/
 #registration_link {
-  color: #fff;
+  color: #000;
   margin-top: 30px;
   text-align: center;
   text-transform: uppercase;
 }
 #registration_link a, #custom_passphrase_link a {
-  color: rgba(255,255,255,0.5);
+  color: rgba(0,0,0,0.75);
 }
 #registration_link a:hover, #custom_passphrase_link a {
-  color: rgba(255,255,255,1.0);
+  color: rgba(0,0,0,1.0);
   text-decoration: none;
 }
 
 #login_panel #remember_password_container label,
 #login_panel #remember_account_container label, 
 #lockscreen_active_plugins_warning label
-{ opacity: 0.53; }
+{ opacity: 0.75; }
 
 #login_panel #remember_password_container label:hover,
 #login_panel #remember_account_container label:hover,
@@ -2957,7 +2957,7 @@ label .popover-content {
   color: #f9f9f9;
 }
 #remember_password_container,#remember_account_container {
-  color:#fff;
+  color:#000;
   text-align:center;
 }
 #remember_password_container label,#remember_account_container label {
